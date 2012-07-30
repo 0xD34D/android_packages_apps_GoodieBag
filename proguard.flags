@@ -1,0 +1,11 @@
+# Keep all Fragments in this package, which are used by reflection.
+-keep class com.android.goodiebag.*Fragment
+-keep class com.android.goodiebag.*Picker
+-keep class com.android.goodiebag.*Settings
+-keep class com.android.goodiebag.deviceinfo.*
+-keep class com.android.goodiebag.applications.*
+-keep class com.android.goodiebag.MasterClear
+-keep class com.android.goodiebag.MasterClearConfirm
+
+# Keep click responders
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Strings for Dialog yes button -->
+    <string name="yes">"Yes"</string>
+
+    <!-- Strings for Dialog no button -->
+    <string name="no">"No"</string>
+
+    <!-- Strings for Dialog create button -->
+    <string name="create">Create</string>
+
+    <!-- Strings for app title -->
+    <string name="settings_label">Goodie Bag</string>
+
+    <!--  Title for security picker to choose the unlock method: None/Pattern/PIN/Password [CHAR LIMIT=22] -->
+    <string name="lock_settings_picker_title">Choose screen lock</string>
+
+    <!-- Help menu label [CHAR LIMIT=20] -->
+    <string name="help_label">Help</string>
+
+
+    <!-- UI settings -->
+    <!-- UI settings screen, section header for settings related to UI -->
+    <string name="ui_settings">UI</string>
+    <!-- UI settings screen, force phone UI check box label -->
+    <string name="ui_mode_title">Force phone UI</string>
+    <!-- UI settings screen, use sliding navbar check box label -->
+    <string name="sliding_navbar_title">Collapsible navbar</string>
+    <!-- UI settings screen, use sliding navbar check box label -->
+    <string name="sliding_navbar_autohide_title">Auto-hide collapsible navbar</string>
+    <!-- UI settings screen, use sliding navbar check box label -->
+    <string name="quicknav_navbar_autohide_title">Auto-hide Quicknav panel</string>
+    <!-- UI settings screen, use sliding navbar check box label -->
+    <string name="quicknav_navbar_press_hide_title">Hide Quicknav on button press</string>
+    <!-- UI settings screen, use sliding navbar check box label -->
+    <string name="quicknav_navbar_press_hide_summary">Hides the Quicknav panel automatically once a button is pressed</string>
+    <!-- UI settings screen, use sliding navbar check box label -->
+    <string name="autohide_time_title">Auto-hide timer</string>
+    <!-- UI settings screen, use sliding navbar check box label -->
+    <string name="status_bar_type_title">Status bar UI type</string>
+
+    <!-- Battery settings -->
+    <!-- Battery settings screen, section header for settings related to battery -->
+    <string name="battery_settings">Battery</string>
+    <!-- Battery settings screen, show battery bar check box label -->
+    <string name="show_battery_bar_title">Battery bar</string>
+    <!-- Battery settings screen, show battery bar check box summary -->
+    <string name="show_battery_bar_summary">Display a bar in the status bar, indicating battery level</string>
+    <!-- Battery settings screen, show battery percentage check box label -->
+    <string name="show_battery_percentage_title">Battery percentage</string>
+    <!-- Battery settings screen, show battery percentage check box summary -->
+    <string name="show_battery_percentage_summary">Overlay battery percentage on battery icon in status bar.</string>
+ 
+</resources>
