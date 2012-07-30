@@ -15,17 +15,12 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/battery_settings"
+        android:title="@string/button_settings"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.goodiebag">
 
         <CheckBoxPreference
-            android:key="show_battery_bar"
-            android:title="@string/show_battery_bar_title"
-            android:summary="@string/show_battery_bar_summary" />
-
-        <CheckBoxPreference
-            android:key="show_battery_percentage"
-            android:title="@string/show_battery_percentage_title"
-            android:summary="@string/show_battery_percentage_summary" />
+            android:key="kill_apps"
+            android:title="@string/long_press_back_kill_app_title"
+            android:summary="@string/long_press_back_kill_app_summary" />
 
 </PreferenceScreen>

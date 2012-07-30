@@ -22,14 +22,21 @@
     <header
         android:id="@+id/ui_settings"
         android:icon="@drawable/ic_settings_applications"
-        android:fragment="com.android.extendedsettings.UiSettings"
+        android:fragment="com.android.goodiebag.UiSettings"
         android:title="@string/ui_settings" />
 
     <!-- Battery -->
     <header
         android:id="@+id/battery_settings"
         android:icon="@drawable/ic_settings_battery"
-        android:fragment="com.android.extendedsettings.BatterySettings"
+        android:fragment="com.android.goodiebag.BatterySettings"
         android:title="@string/battery_settings" />
+
+    <!-- Button -->
+    <header
+        android:id="@+id/button_settings"
+        android:icon="@drawable/ic_settings_button"
+        android:fragment="com.android.goodiebag.ButtonSettings"
+        android:title="@string/button_settings" />
 
 </preference-headers>

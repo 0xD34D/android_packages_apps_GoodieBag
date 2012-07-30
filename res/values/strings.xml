@@ -65,4 +65,12 @@
     <!-- Battery settings screen, show battery percentage check box summary -->
     <string name="show_battery_percentage_summary">Overlay battery percentage on battery icon in status bar.</string>
  
+    <!-- Button settings -->
+    <!-- Button settings screen, section header for settings related to buttons -->
+    <string name="button_settings">Buttons</string>
+    <!-- Button settings screen, long press back to kill app check box label -->
+    <string name="long_press_back_kill_app_title">Kill apps</string>
+    <!-- Button settings screen, long press back to kill app check box summary -->
+    <string name="long_press_back_kill_app_summary">Long pressing the back button will kill the active app when enabled.</string>
+
 </resources>
