@@ -48,6 +48,7 @@ public class UiSettings extends SettingsPreferenceFragment implements
     private static final String TYPE_SYSTEM_BAR_QUICKNAV = "system_bar_quicknav";
     private static final String TYPE_SYSTEM_BAR_QUICKNAV_V2 = "system_bar_quicknav_v2";
     private static final String TYPE_SYSTEM_BAR_PHONE = "phone_statusbar";
+    private static final String TYPE_SYSTEM_BAR_PHONE_QUICKNAV = "phone_statusbar_quicknav";
 
 	private ListPreference mStatusbarType;
 	private CheckBoxPreference mAutoHide;
@@ -94,7 +95,8 @@ public class UiSettings extends SettingsPreferenceFragment implements
         if (!TYPE_SYSTEM_BAR_SLIDER.equals(type)) {
             getPreferenceScreen().removePreference(mAutoHide);
         }
-        if (!TYPE_SYSTEM_BAR_QUICKNAV.equals(type) && !TYPE_SYSTEM_BAR_QUICKNAV_V2.equals(type)) {
+        if (!TYPE_SYSTEM_BAR_QUICKNAV.equals(type) && !TYPE_SYSTEM_BAR_QUICKNAV_V2.equals(type)
+            && !TYPE_SYSTEM_BAR_PHONE_QUICKNAV.equals(type)) {
             getPreferenceScreen().removePreference(mQuicknavAutoHide);
             getPreferenceScreen().removePreference(mQuicknavPressHide);
         }
@@ -128,7 +130,8 @@ public class UiSettings extends SettingsPreferenceFragment implements
                 getPreferenceScreen().addPreference(mAutoHide);
                 getPreferenceScreen().addPreference(mAutoHideTime);
             }
-            if (!TYPE_SYSTEM_BAR_QUICKNAV.equals(value) && !TYPE_SYSTEM_BAR_QUICKNAV_V2.equals(value)) {
+            if (!TYPE_SYSTEM_BAR_QUICKNAV.equals(value) && !TYPE_SYSTEM_BAR_QUICKNAV_V2.equals(value)
+                && !TYPE_SYSTEM_BAR_PHONE_QUICKNAV.equals(value)) {
                 getPreferenceScreen().removePreference(mQuicknavAutoHide);
                 getPreferenceScreen().removePreference(mQuicknavPressHide);
             } else {
