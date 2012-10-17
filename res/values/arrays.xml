@@ -41,7 +41,6 @@
         <item>Normal tablet statusbar</item>
         <item>Collapsible tablet statusbar</item>
         <item>Quicknav tablet statusbar</item>
-        <item>Quicknav tablet statusbar V2</item>
         <item>Phone statusbar + navbar</item>
     </string-array>
     <!-- Do not translate. -->
@@ -49,7 +48,6 @@
         <item>system_bar_normal</item>
         <item>system_bar_slider</item>
         <item>system_bar_quicknav</item>
-        <item>system_bar_quicknav_v2</item>
         <item>phone_statusbar</item>
     </string-array>
 
